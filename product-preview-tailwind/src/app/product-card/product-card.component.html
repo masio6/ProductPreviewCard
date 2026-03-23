@@ -1,0 +1,45 @@
+<div class="max-w-sm md:max-w-2xl bg-white rounded-xl overflow-hidden shadow-lg md:flex">
+
+  <!-- obraz -->
+  <picture class="md:w-1/2">
+    <source media="(min-width: 768px)" srcset="assets/images/image-product-desktop.jpg">
+    <img src="assets/images/image-product-mobile.jpg" alt="Product image" class="w-full h-full object-cover">
+  </picture>
+
+  <!-- content -->
+  <div class="p-6 flex flex-col gap-6 md:w-1/2 h-full justify-between">
+
+    <!-- label -->
+    <span class="uppercase text-gray-500 text-xs md:text-sm tracking-[0.3em]">
+      Perfume
+    </span>
+
+    <!-- title -->
+    <h1 class="font-serif text-2xl md:text-4xl font-bold text-black leading-tight">
+      Gabrielle Essence Eau De Parfum
+    </h1>
+
+    <!-- description -->
+    <p class="text-gray-500 text-sm md:text-base leading-relaxed">
+      A floral, solar and voluptuous interpretation composed by Olivier Polge,
+      Perfumer-Creator for the House of CHANEL.
+    </p>
+
+    <!-- price -->
+    <div class="flex items-center gap-4">
+      <span class="text-[#3c8067] font-bold text-2xl md:text-3xl">
+        $149.99
+      </span>
+      <span class="text-gray-400 line-through text-sm md:text-base">
+        $169.99
+      </span>
+    </div>
+
+    <!-- button -->
+    <app-button variant="primary">
+      <img src="assets/icons/icon-cart.svg" class="w-4 h-4">
+      Add to Cart
+    </app-button>
+
+  </div>
+</div>
